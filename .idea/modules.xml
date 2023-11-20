@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/d.api.iml" filepath="$PROJECT_DIR$/.idea/modules/d.api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/d.main.iml" filepath="$PROJECT_DIR$/.idea/modules/d.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/d.test.iml" filepath="$PROJECT_DIR$/.idea/modules/d.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/extension.api.iml" filepath="$PROJECT_DIR$/.idea/modules/extension.api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/extension.main.iml" filepath="$PROJECT_DIR$/.idea/modules/extension.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/extension.test.iml" filepath="$PROJECT_DIR$/.idea/modules/extension.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/loginer.api.iml" filepath="$PROJECT_DIR$/.idea/modules/loginer.api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/loginer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/loginer.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/loginer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/loginer.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lobbyspawn.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lobbyspawn.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lobbyspawn.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lobbyspawn.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rbclobbyspawn.main.iml" filepath="$PROJECT_DIR$/.idea/modules/rbclobbyspawn.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rbclobbyspawn.test.iml" filepath="$PROJECT_DIR$/.idea/modules/rbclobbyspawn.test.iml" />
     </modules>
   </component>
 </project>
