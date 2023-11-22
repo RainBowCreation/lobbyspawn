@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2a4ded7-fac7-48bd-a5d0-a26036c52e57" name="Changes" comment="lobbyspawn">
+    <list default="true" id="c2a4ded7-fac7-48bd-a5d0-a26036c52e57" name="Changes" comment="Make mod compatible with loginer v1.1+">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/compatibles/API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/compatibles/lobbyspawnAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/event/OnPlayerJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/event/OnPlayerJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/utils/Reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/utils/Reference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -140,11 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700461225679</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Make mod compatible with loginer v1.1+">
+      <option name="closed" value="true" />
+      <created>1700627687959</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700627687959</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="lobbyspawn" />
-    <option name="LAST_COMMIT_MESSAGE" value="lobbyspawn" />
+    <MESSAGE value="Make mod compatible with loginer v1.1+" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make mod compatible with loginer v1.1+" />
   </component>
 </project>

@@ -3,6 +3,8 @@ package net.rainbowcreation.lobbyspawn;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.rainbowcreation.lobbyspawn.compatibles.API;
+import net.rainbowcreation.lobbyspawn.compatibles.lobbyspawnAPI;
 import net.rainbowcreation.lobbyspawn.config.GeneralConfig;
 import net.rainbowcreation.lobbyspawn.utils.IString;
 import net.rainbowcreation.lobbyspawn.utils.Reference;
@@ -18,15 +20,16 @@ public class Main
 {
     private static Logger LOGGER;
     public static List<String> bypass;
+    public static final lobbyspawnAPI API = new API();
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
         LOGGER = event.getModLog();
         if (!settings.ENABLE)
             return;
-        bypass = Arrays.asList(GeneralConfig.bypass.BYPASS_PLAYER);
         for (String txt: Reference.HEADER)
             LOGGER.info(txt);
         LOGGER.info(IString.genHeader(Reference.NAME+":"+Reference.VERSION));
+        bypass = Arrays.asList(GeneralConfig.bypass.BYPASS_PLAYER);
     }
 }
