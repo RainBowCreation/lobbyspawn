@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2a4ded7-fac7-48bd-a5d0-a26036c52e57" name="Changes" comment="Make mod compatible with loginer v1.1+">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/compatibles/API.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/compatibles/lobbyspawnAPI.java" afterDir="false" />
+    <list default="true" id="c2a4ded7-fac7-48bd-a5d0-a26036c52e57" name="Changes" comment="add API">
+      <change afterPath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1/rbclobbyspawn-1.12.2-v1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1/rbclobbyspawn-1.12.2-v1.jar.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1/rbclobbyspawn-1.12.2-v1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1/rbclobbyspawn-1.12.2-v1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1/rbclobbyspawn-1.12.2-v1.pom.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1/rbclobbyspawn-1.12.2-v1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/maven-metadata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/maven-metadata.xml.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/maven-metadata.xml.sha1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/event/OnPlayerJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/event/OnPlayerJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +66,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/deaProjects/lobbyspawn&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.lobbyspawn [build]">
+  <component name="RunManager" selected="Gradle.rbclobbyspawn [publish]">
     <configuration name="lobbyspawn [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -111,8 +118,31 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="rbclobbyspawn [publish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publish" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.rbclobbyspawn [publish]" />
         <item itemvalue="Gradle.lobbyspawn [build]" />
         <item itemvalue="Gradle.rbclobbyspawn [clean]" />
       </list>
@@ -151,13 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700627687959</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add API">
+      <option name="closed" value="true" />
+      <created>1700637048858</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700637048858</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="lobbyspawn" />
     <MESSAGE value="Make mod compatible with loginer v1.1+" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make mod compatible with loginer v1.1+" />
+    <MESSAGE value="add API" />
+    <option name="LAST_COMMIT_MESSAGE" value="add API" />
   </component>
 </project>
