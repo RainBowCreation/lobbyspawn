@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2a4ded7-fac7-48bd-a5d0-a26036c52e57" name="Changes" comment="public repo">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1.1/rbclobbyspawn-1.12.2-v1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1.1/rbclobbyspawn-1.12.2-v1.1.jar.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1.1/rbclobbyspawn-1.12.2-v1.1.jar.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1.1/rbclobbyspawn-1.12.2-v1.1.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1.1/rbclobbyspawn-1.12.2-v1.1.pom.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1.1/rbclobbyspawn-1.12.2-v1.1.pom.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1/rbclobbyspawn-1.12.2-v1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1/rbclobbyspawn-1.12.2-v1.jar.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1/rbclobbyspawn-1.12.2-v1.jar.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1/rbclobbyspawn-1.12.2-v1.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1/rbclobbyspawn-1.12.2-v1.pom.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/1.12.2-v1/rbclobbyspawn-1.12.2-v1.pom.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/maven-metadata.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/maven-metadata.xml.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodsrepo/net/rainbowcreation/lobbyspawn/rbclobbyspawn/maven-metadata.xml.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/compatibles/API.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/compatibles/lobbyspawnAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/event/OnPlayerJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/event/OnPlayerJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/utils/IString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/utils/Reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rainbowcreation/lobbyspawn/utils/Reference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +69,35 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/deaProjects/lobbyspawn&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.61290324&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;
   }
 }</component>
   <component name="RunManager" selected="Gradle.lobbyspawn [build]">
+    <configuration name="lobbyspawn [buildNeeded]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildNeeded" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="lobbyspawn [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -155,6 +168,7 @@
       <list>
         <item itemvalue="Gradle.lobbyspawn [build]" />
         <item itemvalue="Gradle.rbclobbyspawn [clean]" />
+        <item itemvalue="Gradle.lobbyspawn [buildNeeded]" />
         <item itemvalue="Gradle.rbclobbyspawn [publish]" />
       </list>
     </recent_temporary>
